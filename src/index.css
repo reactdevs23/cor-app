@@ -52,7 +52,6 @@
 
   --Primitive-100: #131315;
 
-  --Primitive-0: #fff;
   --Base-0: #fff;
   --Primitive-6: rgb(255, 255, 255, 0.6);
   --Primitive-85: rgb(255, 255, 255, 0.85);
@@ -79,6 +78,7 @@
   --Blue-10: rgba(247, 98, 20, 0.1);
   --Blue-20: rgba(247, 98, 20, 0.2);
   --Blue-15: rgba(247, 98, 20, 0.15);
+  --Primitive-0: #fff;
   --Primitive-200: #e8e8e8;
   --Primitive-300: #d2d2d2;
   --Primitive-400: #999;
@@ -101,25 +101,13 @@
 
   --Primitive-100: #131315;
 
-  --Primitive-0: #fff;
   --Base-0: #fff;
   --Primitive-6: rgb(255, 255, 255, 0.6);
   --Primitive-85: rgb(255, 255, 255, 0.85);
-  --Primitive-50: #f9fafb;
-  --Primitive-200: #e8e9e9;
-  --Primitive-300: #d2d2d2;
-  --Primitive-400: #999a9a;
-  --Primitive-500: #777879;
-  --Primitive-600: #494b4c;
-  --Primitive-700: #3e4041;
+
   --Primitive-750: rgb(62, 64, 65, 0.5);
-  --Primitive-800: #27292a;
-  --Primitive-900: #1c1e1f;
+
   --Primitive-950: #161819;
-  --Blue-500: #3981f8;
-  --Blue-10: rgba(57, 129, 248, 0.1);
-  --Blue-20: rgba(57, 129, 248, 0.2);
-  --Blue-15: rgba(57, 129, 248, 0.15);
 
   --Blue-50: #eff6ff;
   --Blue-100: #dbeafe;
@@ -132,9 +120,26 @@
   --Orange: #df9022;
   --Orange-20: rgba(223, 144, 34, 0.2);
   --Orange-10: rgba(223, 144, 34, 0.2);
-  --Green: #1cad54;
-  --Green-10: rgba(28, 173, 84, 0.1);
+
   --Border: rgba(39, 41, 42, 0.5);
+
+  --Blue-500: #f76214;
+  --Blue-10: rgba(247, 98, 20, 0.1);
+  --Blue-20: rgba(247, 98, 20, 0.2);
+  --Blue-15: rgba(247, 98, 20, 0.15);
+  --Primitive-0: #fff;
+  --Primitive-200: #e8e8e8;
+  --Primitive-300: #d2d2d2;
+  --Primitive-400: #999;
+  --Primitive-500: #777777;
+  --Primitive-700: #313131;
+  --Primitive-800: #272727;
+  --Primitive-900: #1c1c1c;
+  --Green: #09ae7a;
+  --Green-10: rgba(9, 174, 122, 0.1);
+  --Primitive-50: #f8f8f8;
+
+  --Primitive-600: #494949;
 }
 
 * {
