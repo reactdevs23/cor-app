@@ -7,14 +7,12 @@
 
     "lib": ["dom", "dom.iterable", "esnext", "es2015"],
 
-    "moduleResolution": "nodenext",
     "target": "es5",
 
     "allowJs": true, // allow importing .js and .jsx files
     "jsx": "react-jsx", // enable JSX support
     "checkJs": false, // optional: disables type checking in JS files (can be true if you want)
 
-    "module": "NodeNext",
     "outDir": "./dist",
     "rootDir": "./src",
 
