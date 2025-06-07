@@ -4,6 +4,7 @@ import eslint from "vite-plugin-eslint";
 import path from "path";
 import { fileURLToPath } from "url";
 
+// Needed to make __dirname work in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -17,5 +18,4 @@ export default defineConfig({
   server: {
     allowedHosts: ["civas-macbook-pro.siberian-alioth.ts.net"],
   },
-  extensions: [".js", ".jsx", ".ts", ".tsx"], // optional: explicitly specify extensions
 });
