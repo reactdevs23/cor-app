@@ -1,0 +1,26 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  background: var(--Primitive-800);
+  padding: 2px;
+}
+
+.tab {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 142.85%;
+  font-weight: 500;
+  color: var(--Primitive-400);
+  white-space: nowrap;
+  flex: 1;
+}
+.tab:hover {
+  transform: none;
+}
+.tab.active {
+  color: var(--Blue-500);
+  background: var(--Primitive-900);
+}

@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  width: 100%;
+  padding: 6px 6px 6px 16px;
+
+  border-radius: 12px 12px 2px 2px;
+  background: var(--Primitive-800);
+}
+.wrapper:hover {
+  transform: none;
+  opacity: 0.8;
+}
+.selectedItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 10px 8px 14px;
+  flex-shrink: 0;
+}
+
+.logo {
+  max-width: 20px;
+  width: 100%;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.icon {
+  color: var(--Primitive-500);
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  flex-shrink: 0;
+}
+.icon:hover {
+  transform: rotate(-180deg);
+}

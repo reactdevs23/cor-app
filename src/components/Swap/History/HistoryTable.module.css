@@ -1,0 +1,118 @@
+.tableContainer {
+  height: 100%; /* or a specific value like 400px */
+  overflow: hidden; /* Prevents outer scrolling */
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+}
+
+.tableWrapper {
+  flex: 1;
+  overflow-y: auto; /* allows internal vertical scroll */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.headerRow {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.headerCell {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--Primitive-500);
+  line-height: 123.077%;
+  padding: 12px 24px;
+  padding-top: 8px;
+  text-align: left;
+}
+.cell {
+  font-size: 15px;
+  color: var(--Primitive-400);
+  font-weight: 500;
+  line-height: 133.33%;
+  white-space: nowrap;
+  padding: 12px 24px;
+}
+.cell:first-child,
+.headerCell:first-child {
+  padding-left: 0;
+}
+.cell:last-child,
+.headerCell:last-child {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.type.buy {
+  color: var(--Green);
+}
+.type.sell {
+  color: var(--Red);
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pair {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.arrow {
+  font-size: 18px;
+  color: var(--Primitive-600);
+  margin-left: auto;
+}
+.statusContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.status {
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.pending {
+  background: var(--Orange-10);
+  color: var(--Orange);
+}
+.completed {
+  background: var(--Green-10);
+  color: var(--Green);
+}
+.failed {
+  background: var(--Red-10);
+  color: var(--Red);
+}
+.flexList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.flexRow {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr auto;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--Primitive-800);
+  background: var(--Primitive-900);
+  cursor: pointer;
+}
+
+.noData {
+  padding: 40px 0;
+}
+.tableContainer .loader {
+  margin: 40px auto;
+}

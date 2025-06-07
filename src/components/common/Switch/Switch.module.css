@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.switch {
+  width: 36px;
+  height: 20px;
+  border-radius: 24px;
+  background-color: var(--Primitive-700);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.switch.checked {
+  background-color: var(--Blue-500);
+}
+
+.slider {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--Primitive-400);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: translateX(0px);
+  left: 0;
+
+  transition: 0.3s ease;
+}
+
+.switch.checked .slider {
+  transform: translateX(16px);
+}

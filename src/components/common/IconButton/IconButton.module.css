@@ -1,0 +1,10 @@
+.button {
+  display: block;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  flex-shrink: 0;
+  cursor: pointer;
+}

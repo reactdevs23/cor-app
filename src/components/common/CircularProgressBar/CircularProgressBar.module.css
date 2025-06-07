@@ -1,0 +1,18 @@
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+.svg {
+  transform: rotate(-90deg);
+}
+
+.background {
+  fill: none;
+}
+
+.progress {
+  fill: none;
+
+  transition: stroke-dashoffset 0.5s ease;
+}

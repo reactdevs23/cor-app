@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitAny": false,
+    "target": "es5",
+    "lib": ["dom", "es2015", "esnext"],
+    "allowJs": true, // allow importing .js and .jsx files
+    "jsx": "react-jsx", // enable JSX support
+    "checkJs": false, // optional: disables type checking in JS files (can be true if you want)
+
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

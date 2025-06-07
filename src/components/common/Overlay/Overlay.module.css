@@ -1,0 +1,39 @@
+.overlay {
+  width: 100vw;
+
+  position: fixed;
+
+  left: 0;
+  bottom: auto;
+  top: 50px;
+  height: 100px;
+  z-index: 10;
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
+  cursor: pointer;
+  filter: blur(50px);
+  background: linear-gradient(
+    180deg,
+    var(--Primitive-900) 0%,
+    rgba(28, 30, 31, 1) 100%
+  );
+}
+.isScrollingUp {
+  background: linear-gradient(
+    180deg,
+    rgba(28, 30, 31, 1) 0%,
+    var(--Primitive-900) 100%
+  );
+  top: auto;
+  bottom: 50px;
+  height: 100px;
+}
+.type2.isScrollingUp {
+  height: 50px;
+}
+.type2.overlay {
+  background: transparent;
+}
+.noBg {
+  background: transparent;
+}

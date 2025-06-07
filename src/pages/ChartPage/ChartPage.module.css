@@ -1,0 +1,84 @@
+.container {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+.arrow {
+  font-size: 14px;
+  color: var(--Primitive-300);
+}
+.coinInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo {
+  max-width: 24px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.pair {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.balanceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.positive {
+  color: var(--Green);
+}
+.negative {
+  color: var(--Red);
+}
+.rank {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--Orange-10);
+  color: var(--Orange);
+  margin-left: auto;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: max-content;
+}
+.infoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4px;
+}
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px;
+  border-radius: 10px;
+  background: var(--Primitive-800);
+}
+.clockIcon {
+  max-width: 18px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.change {
+  grid-row: 1/-1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-between;
+}

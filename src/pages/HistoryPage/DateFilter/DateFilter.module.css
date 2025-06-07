@@ -1,0 +1,39 @@
+.wrapper {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  flex: 1;
+}
+
+/* Hide native input */
+.inputField {
+  display: none;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: var(--Primitive-800);
+}
+.dropdown.active {
+  border: 1px solid var(--Blue-500);
+}
+
+.labelBreak {
+  white-space: break-all;
+}
+.arrow {
+  font-size: 12px;
+  color: var(--Primitive-400);
+  cursor: pointer;
+  margin-left: auto;
+}
+.arrow.active {
+  color: var(--Primitive-50);
+}

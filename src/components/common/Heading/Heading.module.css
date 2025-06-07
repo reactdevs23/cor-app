@@ -1,0 +1,209 @@
+.heading {
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 30px;
+  color: var(--Primitive-0);
+}
+.gradient {
+  background: var(
+    --Gradient-1,
+    linear-gradient(90deg, #fff 1.63%, rgba(255, 255, 255, 0) 130.32%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blue500 {
+  color: var(--Blue-500);
+}
+.blue600 {
+  color: var(--Blue-600);
+}
+.primitive0 {
+  color: var(--Primitive-0);
+}
+.primitive50 {
+  color: var(--Primitive-50);
+}
+.primitive200 {
+  color: var(--Primitive-200);
+}
+.primitive300 {
+  color: var(--Primitive-300);
+}
+.primitive400 {
+  color: var(--Primitive-400);
+}
+.primitive500 {
+  color: var(--Primitive-500);
+}
+.primitive600 {
+  color: var(--Primitive-600);
+}
+.primitive900 {
+  color: var(--Primitive-900);
+}
+.primitive950 {
+  color: var(--Primitive-950);
+}
+.primitive700 {
+  color: var(--Primitive-700);
+}
+.primitive800 {
+  color: var(--Primitive-800);
+}
+.xs {
+  font-size: 12px;
+}
+.lxs {
+  font-size: 13px;
+  line-height: 123.07%;
+}
+
+.sm {
+  font-size: 14px;
+  line-height: 128.56%;
+}
+.lsm {
+  font-size: 15px;
+  line-height: 120%;
+}
+.md {
+  font-size: 14px;
+}
+.base {
+  font-size: 16px;
+  line-height: 125%;
+}
+.lg {
+  font-size: 18px;
+  line-height: 133.33%;
+}
+.xl {
+  font-size: 20px;
+  line-height: 140%;
+}
+.xxl {
+  font-size: 22px;
+  line-height: 127.27%;
+}
+
+.xl2 {
+  font-size: 24px;
+  line-height: 116.667%;
+}
+.xxl2 {
+  font-size: 28px;
+  line-height: 114.286%;
+}
+.xxl {
+  font-size: 22px;
+  line-height: 127.27%;
+}
+.xl3 {
+  font-size: 32px;
+  line-height: 112.5%;
+}
+.xl4 {
+  font-size: 40px;
+  line-height: 110%;
+}
+.xl5 {
+  font-size: 48px;
+}
+.xl6 {
+  font-size: 60px;
+}
+.xl7 {
+  font-size: 80px;
+}
+
+.textCenter {
+  text-align: center;
+}
+.textRight {
+  text-align: right;
+}
+.bold {
+  font-weight: 700;
+}
+.medium {
+  font-weight: 500;
+}
+.font600 {
+  font-weight: 600;
+}
+.regular {
+  font-weight: 400;
+}
+.semiBold {
+  font-weight: 600;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+/* @media only screen and (max-width: 1280px) {
+  .xl7 {
+    font-size: 72px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .xl6 {
+    font-size: 48px;
+  }
+  .xl7 {
+    font-size: 60px;
+  }
+  .xl5 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .xl6 {
+    font-size: 40px;
+  }
+  .xl7 {
+    font-size: 48px;
+  }
+  .xl5 {
+    font-size: 36px;
+  }
+  .xl4 {
+    font-size: 32px;
+  }
+
+  .xl2 {
+    font-size: 20px;
+  }
+  .xxl2 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .xxl {
+    font-size: 20px;
+  }
+  .xxl2 {
+    font-size: 22px;
+  }
+  .xl3 {
+    font-size: 28px;
+  }
+  .xl7 {
+    font-size: 40px;
+  }
+  .xl6 {
+    font-size: 36px;
+  }
+  .xl4 {
+    font-size: 28px;
+  }
+  .xl5 {
+    font-size: 32px;
+  }
+
+  .lg,
+  .xl {
+    font-size: 16px;
+  }
+} */

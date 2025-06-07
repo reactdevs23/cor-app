@@ -1,0 +1,145 @@
+.button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 22px;
+  background: var(--Blue-500);
+  color: var(--Primitive-0);
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 8px;
+  border: none;
+  border-bottom: 2px solid var(--Blue-600);
+  transition: 0.3s;
+  width: max-content;
+}
+.button:hover {
+  transform: translateY(-3px);
+}
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  transform: none;
+}
+.semiBold {
+  font-weight: 600;
+}
+
+.radius {
+  border-radius: 24px;
+}
+.xs {
+  padding: 2px 8px;
+  font-size: 12px;
+  line-height: 133.33%;
+  border-radius: 5px;
+}
+
+.lxs {
+  font-size: 13px;
+  line-height: 123.077%;
+  padding: 4px 10px;
+}
+.lsm {
+  padding: 8px 12px;
+  font-size: 15px;
+  line-height: 160%;
+}
+.lg {
+  font-size: 18px;
+  padding: 10px 22px;
+}
+
+.blue10 {
+  background: var(--Blue-10);
+  color: var(--Blue-500);
+}
+.green10 {
+  background: var(--Green-10);
+  color: var(--Green);
+}
+.green {
+  color: var(--Primitive-0);
+  background: #1cad7f;
+}
+.red {
+  color: var(--Primitive-0);
+  background: var(--Red);
+}
+/* .btnPrimary {
+  border-bottom: 2px solid var(--Blue-600);
+} */
+
+.transparent {
+  padding: 12px 22px;
+  background: transparent;
+  color: var(--Blue-500);
+  border: transparent;
+}
+.arrowButton {
+  border: none;
+  padding: 0;
+  color: var(--Blue-500);
+  background: transparent;
+  gap: 6px;
+}
+.primitive800 {
+  background: var(--Primitive-800);
+  color: var(--Primitive-300);
+}
+.primitive900 {
+  background: var(--Primitive-900);
+  color: var(--Primitive-400);
+}
+.primitiveTransparent8 {
+  background: var(--Primitive-Transparent-8);
+  color: var(--Primitive-Default);
+}
+.wFull {
+  width: 100%;
+}
+.spinner {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+  margin-right: 5px; /* Add some space between the spinner and the text */
+}
+.arrowButton {
+  border: none;
+  padding: 0;
+  color: var(--Blue-500);
+  background: transparent;
+  gap: 6px;
+}
+.loading {
+  gap: 8px;
+  opacity: 0.6;
+}
+.mxAuto {
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* @media only screen and (max-width: 520px) {
+  .button {
+    padding: 7px 12px;
+  }
+  .sm {
+    padding: 6px 10px;
+  }
+  .lsm {
+    padding: 7px 12px;
+  }
+} */

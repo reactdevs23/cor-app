@@ -1,0 +1,11 @@
+.line {
+  height: 1px;
+  min-height: 1px;
+  max-height: 1px;
+  width: 100%;
+  background: var(--Primitive-900);
+}
+.type2 {
+  opacity: 0.5;
+  background: var(--Primitive-700);
+}

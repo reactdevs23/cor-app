@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.overlay {
+  bottom: 0 !important;
+  height: 50px !important;
+}
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: var(--Primitive-900);
+  top: 60px;
+  z-index: 100;
+  width: 100%;
+  padding: 4px 0;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 8px;
+}
+.header .dropdownContainer {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.dropdownContainer .dropdown {
+  flex: 1;
+}
+.header .filterToggle {
+  padding: 6px 12px;
+  gap: 4px;
+}
+@media only screen and (max-width: 360px) {
+  .header .dropdownContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .dropdownContainer .dateFilter {
+    grid-column: 1/-1;
+    order: 3;
+  }
+  .dropdown {
+    flex: auto;
+  }
+}

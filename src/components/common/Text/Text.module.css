@@ -1,0 +1,165 @@
+.text {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133.33%;
+  font-size: 14px;
+  color: var(--Primitive-0);
+}
+.blue500 {
+  color: var(--Blue-500);
+}
+.blue50 {
+  color: var(--Blue-50);
+}
+.primitive0 {
+  color: var(--Primitive-0);
+}
+.primitive50 {
+  color: var(--Primitive-50);
+}
+.primitive100 {
+  color: var(--Primitive-100);
+}
+.primitive200 {
+  color: var(--Primitive-200);
+}
+.primitive300 {
+  color: var(--Primitive-300);
+}
+.primitive400 {
+  color: var(--Primitive-400);
+}
+.primitive500 {
+  color: var(--Primitive-500);
+}
+.primitive600 {
+  color: var(--Primitive-600);
+}
+.primitive700 {
+  color: var(--Primitive-700);
+}
+.primitive800 {
+  color: var(--Primitive-800);
+}
+.primitive900 {
+  color: var(--Primitive-900);
+}
+.primitive950 {
+  color: var(--Primitive-950);
+}
+
+.green {
+  color: var(--Green);
+}
+.secondary {
+  color: var(--secondary);
+}
+.warning {
+  color: var(--Primitive-Warning);
+}
+.error {
+  color: var(--Error);
+}
+.success {
+  color: var(--Primitive-Default);
+}
+.xxs {
+  font-size: 11px;
+  line-height: 109.091%;
+}
+.xs {
+  font-size: 12px;
+  line-height: 133.33%;
+}
+.lxs {
+  font-size: 13px;
+  line-height: 123.077%;
+}
+
+.sm {
+  font-size: 14px;
+  line-height: 128.56%;
+}
+.lsm {
+  font-size: 15px;
+  line-height: 120%;
+}
+.md {
+  font-size: 14px;
+}
+.base {
+  font-size: 16px;
+  line-height: 125%;
+}
+.lg {
+  font-size: 18px;
+  line-height: 133.33%;
+}
+.xxl {
+  font-size: 22px;
+  line-height: 127.27%;
+}
+.xl {
+  font-size: 20px;
+  line-height: 140%;
+}
+.xl2 {
+  font-size: 24px;
+  line-height: 116.667%;
+}
+.xl3 {
+  font-size: 32px;
+  line-height: 112.5%;
+}
+.xl4 {
+  font-size: 32px;
+}
+
+.textCenter {
+  text-align: center;
+}
+.textRight {
+  text-align: right;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.textLeft {
+  text-align: left;
+}
+.bold {
+  font-weight: 700;
+}
+.medium {
+  font-weight: 500;
+}
+.font600 {
+  font-weight: 600;
+}
+.semiBold {
+  font-weight: 600;
+}
+/* @media only screen and (max-width: 991px) {
+  .lg {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .xl2 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .lg {
+    font-size: 16px;
+  }
+  .xxl {
+    font-size: 20px;
+  }
+  .xl {
+    font-size: 18px;
+  }
+  .xl3 {
+    font-size: 28px;
+  }
+} */

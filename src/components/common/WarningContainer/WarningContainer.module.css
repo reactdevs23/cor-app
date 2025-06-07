@@ -1,0 +1,21 @@
+.wrapper {
+  border-radius: 8px;
+  border: 1px solid var(--Orange-20);
+  background: var(--Orange-10);
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.type2 {
+  border: 1px solid var(--Blue-20);
+  background: var(--Blue-10);
+}
+.icon {
+  flex-shrink: 0;
+  color: var(--Orange);
+  font-size: 20px;
+}
+.type2 .icon {
+  color: var(--Blue-500);
+}

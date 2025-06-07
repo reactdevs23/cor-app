@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px 8px;
+}
+
+.toleranceContainer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  background: var(--Primitive-800);
+  padding: 4px;
+  border-radius: 8px;
+  min-width: 132px;
+}
+.tolerance {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 120%;
+  font-weight: 600;
+  color: var(--Primitive-50);
+  background: transparent;
+
+  height: 100%;
+  flex: 1;
+}
+.tolerance:hover {
+  transform: none;
+}
+.activeTolerance {
+  color: var(--Blue-500);
+  background: var(--Blue-10);
+}
+.toleranceContainer .customInput {
+  max-width: 62px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 133.33%;
+  font-weight: 500;
+  color: var(--Primitive-500);
+  background: transparent;
+  flex: 1;
+  height: 100%;
+}

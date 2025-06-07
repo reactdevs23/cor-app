@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--Primitive-900);
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px 12px;
+}
+.header {
+  align-items: flex-start;
+  padding-bottom: 4px;
+}
+.exchange,
+.networkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+.logo {
+  max-width: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+.duration {
+  color: var(--Primitive-400);
+  font-size: 14px;
+  line-height: 142.86%;
+}
+.status {
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.completed {
+  background: var(--Green-10);
+  color: var(--Green);
+}
+.pending {
+  background: var(--Orange-10);
+  color: var(--Orange);
+}
+.failed {
+  background: var(--Red-10);
+  color: var(--Red);
+}
+.highlight {
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--Green);
+  font-weight: 500;
+}
+.buttonContainer {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+  width: calc(100%);
+  padding: 0 16px;
+
+  padding-top: 8px;
+  padding-bottom: calc(16px + env(safe-area-inset-bottom));
+  background: var(--Primitive-900);
+
+  z-index: 100;
+}
+.buttonContainer .backToWalletButton {
+  padding-bottom: 0;
+}

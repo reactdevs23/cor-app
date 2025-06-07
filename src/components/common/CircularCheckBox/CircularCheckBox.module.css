@@ -1,0 +1,34 @@
+.outerCircle {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid var(--Primitive-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outerCircle:hover {
+  transform: none;
+}
+.innerCircle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--Blue-500);
+  display: none;
+}
+.active .innerCircle {
+  display: block;
+}
+.box .innerCircle {
+  display: none;
+}
+.active .innerCircle {
+  display: block;
+}
+.active.box {
+  border: 1px solid var(--Blue-500);
+}
+.active.outerCircle {
+  border: 1px solid var(--Blue-500);
+}

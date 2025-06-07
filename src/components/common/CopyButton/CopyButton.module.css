@@ -1,0 +1,29 @@
+.editButton {
+  font-size: 16px;
+  color: var(--Primitive-400);
+  cursor: pointer;
+}
+
+.copyIcon {
+  max-width: 18px;
+  width: 100%;
+}
+.button {
+  margin-left: auto;
+  display: block;
+
+  width: 18px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  flex-shrink: 0;
+}
+.icon {
+  color: var(--Primitive-600);
+  font-size: 16px;
+}
+.checkIcon {
+  font-size: 14px;
+}

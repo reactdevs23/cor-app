@@ -1,0 +1,8 @@
+.wrapper {
+  padding-bottom: 100px;
+  min-height: 100vh;
+  position: relative;
+}
+.noPadding {
+  padding-bottom: 0;
+}

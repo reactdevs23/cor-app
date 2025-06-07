@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  gap: 6px 8px;
+}
+.wrapper .input {
+  max-width: 148px;
+  width: 100%;
+}
+.wrapper .textCenter input {
+  text-align: center;
+}
