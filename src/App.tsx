@@ -25,7 +25,7 @@ const App = () => {
           <Route element={<ProtectedRoute isAuthenticated={isAuthenticated} />}>
             <Route path="/" element={<MainLayout />}>
               <Route element={<SwapLayout />}>
-                <Route index element={<SwapPage />} />
+                <Route path="/swap" element={<SwapPage />} />
                 <Route path="chart" element={<ChartPage />} />
                 <Route path="history" element={<HistoryPage />} />
               </Route>
