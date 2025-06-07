@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import clsx from "clsx";
 import { LuMoveRight } from "react-icons/lu";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 import { Heading, Loader, Text } from "@/components/common";
-import Overlay from "@/components/common/Overlay/Overlay";
 import classes from "./HistoryTable.module.css";
 import HistoryDetails from "@/components/Modals/SelectToken/HistoryDetails/HistoryDetails";
 
@@ -31,7 +30,7 @@ interface HistoryTableProps {
 const HistoryTable: React.FC<HistoryTableProps> = ({ data = [] }) => {
   const [selectedTransaction, setSelectedTransaction] =
     useState<TransactionData | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading] = useState(true);
 
   const handleOpenDetails = (transaction: TransactionData) => {
     setSelectedTransaction(transaction);
